@@ -7,7 +7,7 @@ module.exports = {
   // Chosen mode tells webpack to use its built-in optimizations accordingly.
   entry: {
     // index:"./index.js",
-    test:"./test.js",
+    index:"./index.js",
     // testCopy:'./testCopy.js',
     // guidePage:'./guidePage.js',
     // createGamePage:'./createGamePage.js',
@@ -118,7 +118,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: '首页',
       template:'index.html',
-      chunks:['commons','vendor','runtime','test'],
+      chunks:['commons','vendor','runtime','index'],
       filename: path.resolve(__dirname, "dist")+'/index.html',
     }),
   
