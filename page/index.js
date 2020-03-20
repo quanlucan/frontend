@@ -39,7 +39,7 @@ class Index extends Component {
     render() {
         return (
             <div>
-                hello world
+                hello world add
                 <input type="text" onChange={this.changeName} value={this.state.name}/> 
                 <input type="text" onChange={this.changeAge} value={this.state.age} />
                 <br />
