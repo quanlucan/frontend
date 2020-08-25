@@ -62,7 +62,7 @@
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
     "dateformat": "^3.0.3",
-    "highcharts": "^7.2.0",
+    "highcharts": "^7.2.2",
     "highcharts-react-official": "^2.2.2",
     "iscroll": "^5.2.0",
     "jquery": "^3.4.1",
