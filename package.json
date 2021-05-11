@@ -67,7 +67,7 @@
     "iscroll": "^5.2.0",
     "jquery": "^3.4.1",
     "js-base64": "^2.5.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "mockjs": "^1.0.1-beta3",
     "path": "^0.12.7",
     "postcss-js": "^2.0.1",
